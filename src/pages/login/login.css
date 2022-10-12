@@ -1,0 +1,58 @@
+.login{
+    height: calc( 100vh - 45px );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(167, 164, 164,0.5),rgb(167, 164, 164,0.5)),url("https://bookstr.com/wp-content/uploads/2021/01/bookish-feature.jpg");
+    background-size:cover;
+}
+.loginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.loginTitle{
+    font-size: 50px;
+    font-family: 'Lora', serif;
+    color:rgb(247, 218, 181);
+}
+
+.loginForm > label{
+    margin: 10px 0px;
+    font-size: 20px;
+    color:rgb(247, 218, 181);
+    
+}
+
+.loginForm > input{
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+.loginForm > input:focus{
+    outline: none;
+}
+.formLogin{
+    padding: 10px;
+    margin-top: 15px;
+    color: white;
+    background-color: tomato;
+    border: none;
+    border-radius: 8px;
+}
+.registerText{
+    margin: 15px 0px;
+    font-size: 19px;
+
+}
+.registerlogin2{
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 15px;
+    color:rgb(247, 218, 181);
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
